@@ -9,7 +9,11 @@ header("Expires: Wed, 12 Dec 1990 12:12:12 GMT");
 //echo $_SESSION['SITE_LOC'];
 //Cookie Checking
 $extGame = 'false';
+<<<<<<< HEAD
 $cookId = 'ccrm_v24_test123';
+=======
+$cookId = 'ccrm_v24Check';
+>>>>>>> feature/test_release
 if(isset($_COOKIE[$cookId]))
  {  	
  	//echo "Welcome back!";
